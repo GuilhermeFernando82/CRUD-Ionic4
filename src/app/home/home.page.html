@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      CRUD-Ionic + API-Laravel
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content>
+
+  <ion-button expand="full" [routerLink]="['/produtos']" routerDirection="foward">Cadastrar Produtos</ion-button><br>
+  <ion-button expand="full" (click)="presentAlert()">Listar Produtos</ion-button><br>
+  <ion-button expand="full" (click)="updateAlertPrompt()">Atualizar Produtos</ion-button><br>
+  <ion-button expand="full" (click)="deletaAlertPrompt()">Deletar Produtos</ion-button><br>
+</ion-content>
+
+
